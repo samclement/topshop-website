@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "babel-node tools/srcServer.js",
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sam Clement",
@@ -22,6 +23,10 @@
     "babel-preset-react": "^6.23.0",
     "babel-preset-react-hmre": "^1.1.1",
     "eslint": "^3.17.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^6.10.0",
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.15.2",
     "open": "0.0.5",
